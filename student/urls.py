@@ -1,5 +1,5 @@
 from django.urls import path
-from student import views
+import student.views as views
 from django.contrib.auth.views import LoginView
 
 urlpatterns = [
